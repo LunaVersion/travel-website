@@ -19,7 +19,7 @@ return new class extends Migration
             $table->text('content')->nullable();
             $table->tinyInteger('status');
             $table->string('image');
-            $table->json('draft')->nullable();
+            $table->json('draft');
             $table->timestamps();
 
             // Define the foreign key constraint
