@@ -24,6 +24,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return "Luna";
 // });
 
+
 Route::controller(AuthController::class)
     ->prefix('v1/')
     ->group(function () {
@@ -34,7 +35,7 @@ Route::controller(AuthController::class)
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::controller(AuthController::class)->group(function() {
-        Route::get('logout', 'logout'); 
+        Route::get('/logout', 'logout'); 
     });
 
     Route::controller(PostController::class) -> group(function () {
@@ -48,7 +49,7 @@ Route::middleware('auth:sanctum')->group(function () {
         
         Route::put('/posts/{id}', 'update'); //sửa bài 
             
-        Route::put('/posts/{id}/draft', 'updatePostToDraft'); //thêm nháp của bài chính chưa có nháp
+        Route::put('/posts/{id}/draft', 'updateDraft'); //sửa bài có nháp
     
         Route::delete('/posts/{id}', 'destroy'); // xóa 
     });
