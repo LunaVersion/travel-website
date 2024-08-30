@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/headerandfooter.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="background"></div>
+            <div class="navbar">
+                <div class="brand">
+                    <a href="home.html">travelaja</a>
+                </div>
+                <div class="menus" style="margin-bottom: 14px;">
+                    <ul>
+                        <li><a href="home.html"><strong>Home</strong></a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contact.html" style="color: white;">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="language">
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                            id="dropdownMenuButton">
+                            ID <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="change_text('ID')">ID</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="change_text('VN')">VN</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="change_text('AU')">AU</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hero_content">
+                <div class="text_content">
+                    <h1>Explore the world with a smile</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                        venenatis,
+                        lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis
+                        leo,
+                    </p>
+                </div>
+                <div class="hero_search">
+                    <form class="search">
+                        <i class='bx bxs-map'></i>
+                        <div class="box1">
+                            <input class="form-control-1" list="city" placeholder="City or Destination">
+                            <datalist id="city">
+                                <option value="Ha Noi">
+                                <option value="Thanh Hoa">
+                                <option value="Da Nang">
+                                <option value="Quang Ninh">
+                            </datalist>
+                        </div>
+                        <p><input type="text" class="date" id="datepicker" placeholder="Date of stay"></p>
+                        <div class="box3">
+                            <input class="form-control-3" list="person" placeholder="Person">
+                            <datalist id="person">
+                                <option value="person1">
+                                <option value="person2">
+                            </datalist>
+                        </div>
+                        <div class="find">
+                            <button id="bth" class="bth">Find trip now</button>
+                            <i class='bx bx-search'></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row ">
+                <div class="col-6">
+                    <div class="image_box">
+                        <div class="img1"></div>
+                        <div class="boder2"></div>
+                        <div class="img2"></div>
+                        <div class="boder3"></div>
+                        <div class="img3"></div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p class="travelers_point_text">Travelers Point</p>
+                    <h3>We help to find your dream place</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit ut aliquam, purus sit amet
+                        luctus venenatis, lectus magna fringilla urna,
+                        porttitor rhoncus dolor purus non enim praesent
+                        elementum facilisis leo, vel fringilla est ullamcorper
+                        eget nulla facilisi
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>100+</h3>
+                            <p>Holiday Package</p>
+                        </div>
+                        <div class="col-6">
+                            <h3>172</h3>
+                            <p>Hotels</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>68</h3>
+                            <p>Elite Transportation</p>
+                        </div>
+                        <div class="col-6">
+                            <h3>32M+</h3>
+                            <p>we help to find your dream place</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="top_destination">
+                <div class="text_destination">
+                    <p>Top Destination</p>
+                    <h2>Discover your love</h2>
+                </div>
+                <div class="row">
+                    <div class="col-4" id="1">
+                        <div class="card mb-3">
+                            <img src="../img/home/card1.png">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Taman Nasional Komodo</a></h5>
+                                <div class="inf">
+                                    <div class="left_inf">
+                                        <p>Rp. 7,5jt</p>
+                                    </div>
+                                    <div class="right_inf">
+                                        <i class='bx bxs-navigation'></i>
+                                        <p>7 days for trips</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" id="2">
+                        <div class="card mb-3">
+                            <img src="../img/home/card2.png">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Taman Nasional Bunaken</a></h5>
+                                <div class="inf">
+                                    <div class="left_inf">
+                                        <p>Rp. 10,5jt</p>
+                                    </div>
+                                    <div class="right_inf">
+                                        <i class='bx bxs-navigation'></i>
+                                        <p>9 days for trips</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" id="3">
+                        <div class="card mb-3">
+                            <img src="../img/home/card3.png">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Raja Ampat, Papua Barat</a></h5>
+                                <div class="inf">
+                                    <div class="left_inf">
+                                        <p>Rp. 20,5jt</p>
+                                    </div>
+                                    <div class="right_inf">
+                                        <i class='bx bxs-navigation'></i>
+                                        <p>14 days for trips</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4" id="4">
+                        <div class="card mb-3">
+                            <img src="../img/home/card4.png">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Kepulauan Wakatobi</a></h5>
+                                <div class="inf">
+                                    <div class="left_inf">
+                                        <p>Rp. 9,5jt</p>
+                                    </div>
+                                    <div class="right_inf">
+                                        <i class='bx bxs-navigation'></i>
+                                        <p>12 days for trips</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" id="5">
+                        <div class="card mb-3">
+                            <img src="../img/home/card5.png">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Gili Trawangan, Lombok</a></h5>
+                                <div class="inf">
+                                    <div class="left_inf">
+                                        <p>Rp. 6,5jt</p>
+                                    </div>
+                                    <div class="right_inf">
+                                        <i class='bx bxs-navigation'></i>
+                                        <p>7 days for trips</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" id="6">
+                        <div class="card mb-3">
+                            <img src="../img/home/card6.png">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="">Taman Nasional Bromo</a></h5>
+                                <div class="inf">
+                                    <div class="left_inf">
+                                        <p>Rp. 9,5jt</p>
+                                    </div>
+                                    <div class="right_inf">
+                                        <i class='bx bxs-navigation'></i>
+                                        <p>7 days for trips</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="text_testimonials">
+                <p>Testtimonials</p>
+                <h2>What they say about us</h2>
+            </div>
+            <div class="container">
+                <div class="row row-1">
+                    <div class="col-4">
+                        <div class="person">
+                            <div class="avatar avatar-1"></div>
+                            <h5>Angelina Simple</h5>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit ut aliquam, purus sit amet luctus venenatis
+                        </p>
+                    </div>
+                    <div class="col-4 col-4-main">
+                        <div class="person">
+                            <div class="avatar avatar-2"></div>
+                            <h5>Viola Natalie</h5>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit ut aliquam, purus sit amet luctus venenatis
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <div class="person">
+                            <div class="avatar avatar-3"></div>
+                            <h5>Robert John K.</h5>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit ut aliquam, purus sit amet luctus venenatis
+                        </p>
+                    </div>
+                </div>
+                <div class="row row-2">
+                    <div class="col-4">
+                        <div class="person">
+                            <div class="avatar avatar-4"></div>
+                            <h5>Anggi Nani</h5>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit ut aliquam, purus sit amet luctus venenatis
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <div class="person">
+                            <div class="avatar avatar-5"></div>
+                            <h5>Graham Suryo J</h5>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit ut aliquam, purus sit amet luctus venenatis
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <div class="person">
+                            <div class="avatar avatar-6"></div>
+                            <h5>Graham Suryo J</h5>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit ut aliquam, purus sit amet luctus venenatis
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="col-3">
+                    <div class="travelaja">travelaja</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+                        sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
+                        dolor purus non enim praesent elementum facilisis leo, vel</p>
+                    <div class="end">
+                        <div><b>Ikuti Kami</b></div>
+                        <div class="icon">
+                            <ul><i class='bx bxl-instagram'></i></ul>
+                            <ul><i class='bx bxl-facebook-circle'></i></ul>
+                            <ul><i class='bx bxl-twitter'></i></ul>
+                            <ul><i class='bx bx-basketball'></i></ul>
+                            <ul><i class='bx bxl-github'></i></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <div class="textcontent"><b>Links</b></div>
+                    <div class="list">
+                        <ul>
+                            <li><a href="">Discover</a></li>
+                            <li><a href="">Special Deals</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Community</a></li>
+                            <li><a href="">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="textcontent"><b>Services</b></div>
+                    <div class="list">
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Blog & Articles</a></lil>
+                            <li><a href="">Term and Condition</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="textcontent"><b>Contact</b></div>
+                    <p>Address: Jl.Codelaras No.205A</p>
+                    <p>Kediri, Pare AG17</p>
+                    <p>Phone: 123 456 7890</p>
+                    <p>Email: myagungperdana@gmail.com</p>
+                    <p>Maps: Kediri, East java</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/header.js"></script>
+</body>
+
+</html>

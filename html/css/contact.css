@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+    font-family: 'Poppins';
+}
+
+.banner {
+    position: relative;
+    margin-bottom: 111px;
+    .banner_mask {
+        width: 100%;
+        height: 250px;
+        background-image: url(../img/contact/image_3_contact.png);
+        background-size: 100% 250px;
+    }
+    .banner_text {
+        position: absolute;
+        top: 160px;
+        left: 50px;
+        -webkit-text-fill-color: aliceblue;
+        font-size: 35px;
+    }
+}
+
+.wrapper .container .row .col-6 .map {
+    top: 421px;
+    left: 650px;
+    gap: 0px;
+}
+.col-6 .left .mb-3 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid #D9D9D9;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px; 
+}
+.col-6 .left .mb-3 textarea{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 15px;
+    border: 2px solid #D9D9D9;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px; 
+}
+.col-6 .left button{
+    width: 81px;
+    height: 39px;
+    border-radius: 15px;
+    border: 2px solid #D9D9D9;
+    background-color: #43B97F;
+}
+
+.row .col-6 .row .box{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px 0;
+}
+.inf {
+    margin-top: 10px;
+}
